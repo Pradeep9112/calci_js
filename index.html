@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calci</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="calculator">
+        <div >
+           <input id="display"type="text" readonly >
+        </div>
+        <div class="keys">
+           <button onclick="ALLclear()" id="color1">AC</button>
+           <button onclick="Display('(')" id="opcolor">(</button>
+           <button onclick="Display(')')" id="opcolor">)</button>
+           <button onclick="Display('%')"id="opcolor">%</button>
+           <button onclick="Display('7')">7</button>
+           <button onclick="Display('8')">8</button>
+           <button onclick="Display('9')">9</button>
+           <button onclick="Display('*')"id="opcolor">*</button>
+           <button onclick="Display('4')">4</button>
+           <button onclick="Display('5')">5</button>
+           <button onclick="Display('6')">6</button>
+           <button onclick="Display('-')"id="opcolor">-</button>
+           <button onclick="Display('1')">1</button>
+           <button onclick="Display('2')">2</button>
+           <button onclick="Display('3')">3</button>
+           <button onclick="Display('+')"id="opcolor">+</button>
+           <button onclick="Display('0')">0</button>
+           <button onclick="Display('.')"><b>.</b></button>
+<!-- <button onclick="evaluate()">+</button> -->
+           <button onclick="clearlast()" id="color1">C</button>
+           <button onclick="calcuate()" id="color2">=</button>
+
+<script src="./index.js"></script>
+
+         
+        </div>
+    </div>
+</body>
+</html>
